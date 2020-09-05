@@ -22,7 +22,7 @@
 
   body {
     background-image: url("https://www.balcanicaucaso.org/var/obc/storage/images/zone/bosna-i-hercegovina/poljoprivreda-i-ruralna-podrucja-zapadnog-balkana-zemlje-poljoprivrede-i-ruralnog-razvoja-95798/585748-2-ita-IT/Agriculture-and-rural-areas-in-the-Western-Balkans-status-update.jpg");
-    height: 500px;
+    height: 100%;
     background-color: #cccccc;
     /* background-position: center; */
     background-repeat: no-repeat;
