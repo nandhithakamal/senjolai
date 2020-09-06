@@ -1,6 +1,6 @@
 <header class="lg:px-16 px-6 bg-transparent flex flex-wrap items-center lg:py-0 py-2">
-    <div class="flex-1 flex justify-between items-center text-2xl tracking-tight font-bold">
-        <a href="#" class="text-orange-200">
+    <div class="flex-1 flex justify-between items-center text-2xl tracking-tight font-bold text-orange-200">
+        <a href="#" class="navlink">
             Senjolai
         </a>
     </div>
@@ -15,15 +15,15 @@
     <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
         <nav>
             <ul class="lg:flex items-center justify-between text-base text-orange-200 pt-4 lg:pt-0">
-                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400"
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400 navlink"
                         href="#">Home</a></li>
-                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400"
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400 navlink"
                         href="#">About</a></li>
-                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400"
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400 navlink"
                         href="#">Join Us</a></li>
-                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400"
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400 navlink"
                         href="#">Gallery</a></li>
-                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400"
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400 navlink"
                         href="#">Contact</a></li>
             </ul>
         </nav>
