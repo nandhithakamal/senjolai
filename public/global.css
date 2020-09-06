@@ -70,3 +70,8 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+
+#menu-toggle:checked + #menu {
+	display: block
+}

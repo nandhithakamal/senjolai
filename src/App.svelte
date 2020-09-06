@@ -13,20 +13,8 @@
     margin: 0 auto;
   }
 
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
-
-  body {
-    background-image: url("https://www.balcanicaucaso.org/var/obc/storage/images/zone/bosna-i-hercegovina/poljoprivreda-i-ruralna-podrucja-zapadnog-balkana-zemlje-poljoprivrede-i-ruralnog-razvoja-95798/585748-2-ita-IT/Agriculture-and-rural-areas-in-the-Western-Balkans-status-update.jpg");
-    height: 100%;
-    background-color: #cccccc;
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
+  h1{
+    color: #ff5300;
   }
 
   @media (min-width: 640px) {
@@ -38,15 +26,17 @@
 
 <Tailwindcss />
 
-<body>
+<body class="antialiased">
   <div class="bg"></div>
   <Navbar />
   <main>
-    <h1>Hello {name}!</h1>
-    <p>
-      Visit the
-      <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-      to learn how to build Svelte apps.
-    </p>
+    <div class="px-4 text-center">
+      <div class="max-w-3xl bg-indigo-100 rounded-lg mx-auto my-16 p-16">
+        <h1 class = "text-2xl mb-2 tracking-wide font-medium">
+          Welcome to Senjolai!
+        </h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laudantium sed autem quo deleniti eius, accusantium iure dignissimos quasi minima cum fugiat expedita et voluptatibus molestias. Magnam incidunt fugit reiciendis!
+      </div>
+    </div>
   </main>
 </body>

@@ -1,32 +1,36 @@
-<nav class="flex items-center justify-between flex-wrap bg-orange-800 p-6">
-    <div class="flex items-center flex-shrink-0 text-white mr-6">
-      <span class="font-semibold text-xl tracking-tight">Senjolai</span>
-    </div>
-    <div class="block lg:hidden">
-      <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-      </button>
-    </div>
-    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-      <div class="text-sm lg:flex-grow">
-        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-500 mr-4">
-          Home
+<header class="lg:px-16 px-6 bg-transparent flex flex-wrap items-center lg:py-0 py-2">
+    <div class="flex-1 flex justify-between items-center text-2xl tracking-tight font-bold">
+        <a href="#">
+            Senjolai
         </a>
-        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-500 mr-4">
-          About
-        </a>
-        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-500 mr-4">
-          Join
-        </a>
-        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-500 mr-4">
-            Gallery
-          </a>
-        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-500 ">
-          Contact
-          </a>
-      </div>
-      <div>
-        <button class="inline-block text-lg px-4 py-2 leading-none text-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">தமிழ்</button>
-      </div>
     </div>
-  </nav>
+
+    <label for="menu-toggle" class="cursor-pointer lg:hidden block"><svg class="fill-current text-gray-900"
+            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg></label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+
+    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+        <nav>
+            <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-teal-400"
+                        href="#">Home</a></li>
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-teal-400"
+                        href="#">About</a></li>
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-teal-400" href="#">Join Us</a></li>
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-teal-400"
+                        href="#">Gallery</a></li>
+                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-teal-400"
+                        href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button
+                class="inline-block text-lg px-4 py-2 leading-none text-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">தமிழ்</button>
+        </div>
+
+    </div>
+
+</header>
